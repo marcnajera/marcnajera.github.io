@@ -1,0 +1,133 @@
+/*
+	Big Picture by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+	body {
+		/*min-width: 320px;*/
+	}
+	
+	body,input,textarea,select {
+		font-size: 11pt;
+	}
+	
+	.content, .elegant {
+		font-size: 11pt;
+	}
+	
+	h2, h3 {
+		font-size: 1.6em;
+		letter-spacing: 0px;
+	}
+	
+	.social, .social a {
+		font-size: 30pt;
+	}
+
+	.container > .container {
+		width: 100% !important;
+	}
+	
+	/* Main */
+		
+		.main {
+		}
+		
+			.main.style2 {
+			}
+			
+				.main.style2 .content {
+					width: 60%;
+				}
+			
+					.main.style2.right .content {
+						left: 40%;
+					}
+
+				.main.style2.inactive {
+				}
+
+					.main.style2.inactive .content {
+					}
+
+						.main.style2.inactive.left .content {
+							left: -60%;
+						}
+						
+	.elegant {
+		font-size: 12pt;
+	}
+
+	.elegant.italic {
+		font-size: 0.8em;
+	}
+	.elegant.right {
+		font-size: 0.9em;
+	}
+	
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header {
+		height: 3em;
+		line-height: 3em;
+	}
+
+	body {
+		padding-top: 2.5em;
+	}
+
+	#logo {
+		text-align: center;
+		position: relative;
+		left: 0;
+		top: 0.2em;
+		height: 100%;
+		line-height: 2.5em;
+	}
+	
+		#logo a {
+			font-size: 1em;
+		}
+	
+	#nav {
+		/*display: none;*/
+		height: 100%;
+		line-height: 2.5em;
+		font-size: 10pt;
+	}		
+	
+	
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+	
+	#footer {
+		height: auto;
+		line-height: inherit;
+		text-align: center;
+		padding: 2em 1em 2em 1em;
+	}
+
+		#footer .actions {
+			position: relative;
+			left: 0;
+			top: 0;
+			height: auto;
+			line-height: inherit;
+			margin: 0 0 1em 0;
+		}
+		
+		#footer .menu {
+			position: relative;
+			right: 0;
+			top: 0;
+			height: auto;
+			line-height: inherit;
+		}
